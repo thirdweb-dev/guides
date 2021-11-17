@@ -26,7 +26,7 @@ One or multiple:
 - **pack** - Guides related to the Pack module, check [here](https://thirdweb.com/portal/guides/pack).
 
 If your guide doesn't use any modules, use:
-- general - For guides not related to any of the previously mentioned modules, check [here](https://thirdweb.com/portal/guides/general).
+- **general** - For guides not related to any of the previously mentioned modules, check [here](https://thirdweb.com/portal/guides/general).
 
 ### Language
 - **typescript**
@@ -99,11 +99,12 @@ and then you can embed the video with:
 - **Code**: Use this for file names, package names, etc. Enclose the text in backticks.  ``hello.py``
 - **Code blocks**: You can embed code snippets with whatever language you want, to do so, place a triple backtick in one line, followed by the language you want to use, then the code block, and three more backticks at the end.
 
-`
+```
 ```javascript
 console.log("Hello world!")
 ```
-`
+```
+
 Will output:
 ```javascript
 console.log("Hello world!")
