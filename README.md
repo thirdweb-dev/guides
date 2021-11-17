@@ -99,9 +99,9 @@ and then you can embed the video with:
 - **Code**: Use this for file names, package names, etc. Enclose the text in backticks.  ``hello.py``
 - **Code blocks**: You can embed code snippets with whatever language you want, to do so, place a triple backtick in one line, followed by the language you want to use, then the code block, and three more backticks at the end.
 
-````javascript` // triple backticks and language name
+` \```javascript ` // triple backticks and language name
 `console.log("Hello world!")` // code here
-` ``` ` // close with triple backticks
+` \``` ` // close with triple backticks
 
 
 Will render:
@@ -111,7 +111,7 @@ console.log("Hello world!")
 
 You can also add a file title to the code block by writing if after the language name and a colon.
 
-````javascript:index.js` // triple backticks, language name, colon and file name
+` ```javascript:index.js ` // triple backticks, language name, colon and file name
 
 This will add the title of the file to the rendered markdown on the portal.
 
